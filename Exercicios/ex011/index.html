@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Imagens adaptáveis</h1>
+    <picture>
+        <source media="(max-width:450px )" srcset="imagens/Dawison300.jpg" type="image/jpg">
+        <source media="(max-width:550px )" srcset="imagens/Dawison400.jpg" type="image/jpg">
+        <source media="(max-width:650px )" srcset="imagens/Dawison500.jpg" type="image/jpg">
+        <source media="(max-width:750px )" srcset="imagens/Dawison600.jpg" type="image/jpg">
+        <source media="(max-width:850px )" srcset="imagens/Dawison700.jpg" type="image/jpg">
+        <source media="(max-width:950px )" srcset="imagens/Dawison800.jpg" type="image/jpg">
+        <source media="(max-width:1050px)" srcset="imagens/Dawison900.jpg" type="image/jpg">
+        <img src="imagens/Dawison1000.jpg" alt="Foto grande">
+        
+    </picture>
+
+    <h1>Audios</h1>
+    <audio preload="metadata" controls loop>
+        <source src="midias/banjo.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não conseguiu tocar nossa musica de fundo :( </p>
+    </audio>
+    
+
+</body>
+</html>

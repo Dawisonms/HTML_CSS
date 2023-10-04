@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes Box</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+
+        .level{
+            display:block;
+            height: 20px;
+            width: 150px;
+            background-color: blue;
+            padding: 10px;
+            text-align: center;
+            border: 2px solid orange; /* Não teve efeito*/
+            margin: auto;
+            font-family: monospace;
+            font-size: 1.4em;
+            
+         }
+         .inline{
+            display: inline-block;
+            height: 20px;
+            width: 150px;
+            background-color: orange;
+            padding: 10px;
+            text-align: center;
+            border:2px solid blue;
+            margin: auto;
+            font-family: monospace;
+            font-size: 1.4em;
+            
+         }
+         p{
+           text-indent: 10px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <h1>Box Model / Modelos de caixas</h1>
+    <h2>Box-Level</h2>
+    
+    <p> <div class="level">Caixa</div> A caixa fica separada do texto.</p>
+
+    <h2>Box-Inline</h2>
+    
+    <p> <div class="inline">Caixa</div> A caixa fica na mesma linha do texto.</p>
+
+    
+</body>
+</html>

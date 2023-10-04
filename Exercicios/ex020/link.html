@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elementos</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+            }
+
+        a {
+            text-decoration: none;
+            color: black
+            }
+
+        a::after{
+            content: ' [Link]';
+            color: gray;
+            font-size: 0.7em;
+            }
+        
+        a:hover{
+            text-decoration: underline;
+            background-color: rgb(238, 227, 227);
+            }
+        
+        a:active{
+            color: yellow;
+        }
+        a:visited{
+            color: rgb(71, 51, 54);
+        }
+        
+    </style>
+
+
+
+
+</head>
+<body>
+    <h1>Redes sociais grupo Meta</h1>
+<ul>
+    <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+</ul>
+
+    
+</body>
+</html>
