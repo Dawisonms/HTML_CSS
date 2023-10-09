@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@font-face {
+    font-family: PassionOne;
+    src: url(PassionOne-Regular.ttf) format(trutype);
+}
+
+  .root{
+    --font-principal: 'Sriracha', cursive;
+    --font-nome: 'PassionOne', verdana;
+  }
+
+body{
+    background-color: black;
+    color: white;
+    
+}
+main{
+    background-position: right center;
+    
+}
+
+article{
+    
+    color: black;
+    padding: 10px;
+    
+}
+.branco{
+    background-color: white;
+}
+.joaninha{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.carta{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
