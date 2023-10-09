@@ -5,13 +5,36 @@
 
 @font-face {
     font-family: PassionOne;
-    src: url(PassionOne-Regular.ttf) format(trutype);
+    src: url(fonte/PassionOne-Regular.ttf) format('truetype');
 }
 
-  .root{
+:root{
     --font-principal: 'Sriracha', cursive;
     --font-nome: 'PassionOne', verdana;
-  }
+  
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    padding: auto;
+    margin: 20px;
+}
+
+h1{
+    font-family: 'PassionOne', cursive;
+    font-weight: lighter;
+    font-size: 60px;
+    text-align: center;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
 
 body{
     background-color: black;
@@ -20,29 +43,67 @@ body{
 }
 main{
     background-position: right center;
+    font-family: 'Sriracha', cursive;
+    font-size: 23px;
     
+}
+p{
+    text-align: left;
+    
+}
+section{
+    padding-left: 30px;
 }
 
 article{
     
     color: black;
     padding: 10px;
+    width: 250px;
     
 }
 .branco{
     background-color: white;
+    padding: 20px 0px 30px 10px;    
+    
 }
 .joaninha{
+    height: 80vh;
     background-image: url(imagens/background001.jpg);
     background-position: right center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
+}
+.conteudo{
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.411);
+    margin-top: 68px;
+    text-shadow: 1px 1px 1px black;
+    padding:2px
+        
 }
 .carta{
+    height: 80vh;
     background-image: url(imagens/background002.jpg);
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
 }
