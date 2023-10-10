@@ -27,12 +27,15 @@ h1{
     font-weight: lighter;
     font-size: 60px;
     text-align: center;
+    font-variant: small-caps;
+    padding-top: 50px;
 }
 h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size: 16px;
     font-weight: lighter;
+    padding-bottom: 50px;
 }
 
 
@@ -52,23 +55,27 @@ p{
     
 }
 section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     padding-left: 30px;
+    line-height: 2em;
+
 }
 
 article{
     
     color: black;
-    padding: 10px;
-    width: 250px;
+    
+    
     
 }
 .branco{
     background-color: white;
-    padding: 20px 0px 30px 10px;    
+    
     
 }
 .joaninha{
-    height: 80vh;
+    height: 55vh;
     background-image: url(imagens/background001.jpg);
     background-position: right center;
     background-size: cover;
@@ -80,13 +87,12 @@ article{
     position: absolute;
     color: white;
     background-color: rgba(0, 0, 0, 0.411);
-    margin-top: 68px;
     text-shadow: 1px 1px 1px black;
-    padding:2px
+    padding:2px;
         
 }
 .carta{
-    height: 80vh;
+    height: 55vh;
     background-image: url(imagens/background002.jpg);
     background-position: right center;
     background-repeat: no-repeat;
