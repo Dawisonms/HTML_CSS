@@ -25,7 +25,7 @@ header{
 h1{
     font-family: 'PassionOne', cursive;
     font-weight: lighter;
-    font-size: 60px;
+    font-size: 10vw;
     text-align: center;
     font-variant: small-caps;
     padding-top: 50px;
@@ -45,9 +45,10 @@ body{
     
 }
 main{
+    
     background-position: right center;
     font-family: 'Sriracha', cursive;
-    font-size: 23px;
+    font-size: 3.5vw;
     
 }
 p{
@@ -84,6 +85,7 @@ article{
     
 }
 .conteudo{
+    
     position: absolute;
     color: white;
     background-color: rgba(0, 0, 0, 0.411);
