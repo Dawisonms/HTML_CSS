@@ -76,7 +76,7 @@ article{
     
 }
 .joaninha{
-    height: 55vh;
+    
     background-image: url(imagens/background001.jpg);
     background-position: right center;
     background-size: cover;
@@ -85,8 +85,7 @@ article{
     
 }
 .conteudo{
-    
-    position: absolute;
+    display: inline-block;    
     color: white;
     background-color: rgba(0, 0, 0, 0.411);
     text-shadow: 1px 1px 1px black;
@@ -94,7 +93,7 @@ article{
         
 }
 .carta{
-    height: 55vh;
+    
     background-image: url(imagens/background002.jpg);
     background-position: right center;
     background-repeat: no-repeat;
