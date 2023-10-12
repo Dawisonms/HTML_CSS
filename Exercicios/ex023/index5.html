@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrumamento de colunas (Cores)</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        col.csexo{
+            background-color: lightblue;
+        }
+
+    </style>
+
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissao">
+
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Dawison</td>
+                <td>Masculino</td>
+                <td>42 anos</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Cátia</td>
+                <td>Feminino</td>
+                <td>43 anos</td>
+                <td>Professora</td>
+            </tr>
+            <tr>
+                <td>João Paulo</td>
+                <td>Masculino</td>
+                <td>9 anos</td>
+                <td>Engenheiro</td>
+            </tr>
+            <tr>
+                <td>André</td>
+                <td>Masculino</td>
+                <td>5 anos</td>
+                <td>Músico</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
