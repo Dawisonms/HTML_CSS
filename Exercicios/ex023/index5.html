@@ -11,7 +11,7 @@
 
         table{
             border-collapse: collapse;
-            width: 500px;
+            width: 1000px;
         }
         td, th{
             border: 1px solid black;
@@ -21,55 +21,83 @@
         col.csexo{
             background-color: lightblue;
         }
+        div.conteiner{
+            overflow: auto;
+        }
 
     </style>
 
 </head>
 <body>
-    <table>
-        <colgroup>
-            <col class="cnome">
-            <col class="csexo">
-            <col class="cidade">
-            <col class="cprofissao">
-
-        </colgroup>
-        <thead>
-            <tr>
-                <th>Nome</th>
-                <th>Sexo</th>
-                <th>Idade</th>
-                <th>Profissão</th>
-            </tr>
-        </thead>
-
-        <tbody>
-            <tr>
-                <td>Dawison</td>
-                <td>Masculino</td>
-                <td>42 anos</td>
-                <td>Programador</td>
-            </tr>
-            <tr>
-                <td>Cátia</td>
-                <td>Feminino</td>
-                <td>43 anos</td>
-                <td>Professora</td>
-            </tr>
-            <tr>
-                <td>João Paulo</td>
-                <td>Masculino</td>
-                <td>9 anos</td>
-                <td>Engenheiro</td>
-            </tr>
-            <tr>
-                <td>André</td>
-                <td>Masculino</td>
-                <td>5 anos</td>
-                <td>Músico</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="conteiner">
+        <table>
+            <colgroup>
+                <col class="cnome">
+                <col class="csexo">
+                <col class="cidade">
+                <col class="cprofissao">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Sexo</th>
+                    <th>Idade</th>
+                    <th>Profissão</th>
+                    <th>Altura</th>
+                    <th>Peso</th>
+                    <th>Numero sapato</th>
+                    <th>Cor preferida</th>
+                    <th>Hobby</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dawison</td>
+                    <td>Masculino</td>
+                    <td>42 anos</td>
+                    <td>Programador</td>
+                    <td>1,8m</td>
+                    <td>84 kg</td>
+                    <td>41</td>
+                    <td>Laranja</td>
+                    <td>Tocar violão</td>
+                </tr>
+                <tr>
+                    <td>Cátia</td>
+                    <td>Feminino</td>
+                    <td>43 anos</td>
+                    <td>Professora</td>
+                    <td>1,67m</td>
+                    <td>52kg</td>
+                    <td>35</td>
+                    <td>Rosa</td>
+                    <td>Artesanato</td>
+                </tr>
+                <tr>
+                    <td>João Paulo</td>
+                    <td>Masculino</td>
+                    <td>9 anos</td>
+                    <td>Engenheiro</td>
+                    <td>1,3m</td>
+                    <td>21kg</td>
+                    <td>30</td>
+                    <td>Vermelho</td>
+                    <td>Brincar</td>
+                </tr>
+                <tr>
+                    <td>André</td>
+                    <td>Masculino</td>
+                    <td>5 anos</td>
+                    <td>Músico</td>
+                    <td>1m</td>
+                    <td>15kg</td>
+                    <td>25</td>
+                    <td>Vermelho</td>
+                    <td>Brincar</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
     
 </body>
 </html>
