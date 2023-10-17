@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota Escolar</title>
+
+    <style>
+        *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Notas</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p><label for="inome">Aluno:</label> <input type="text" name="nome" id="inome" required minlength="10" placeholder="Nome completo" size="40" autocomplete="name"></p>
+
+
+        <p><label for="inota">Nota:</label> <input type="number" name="nota" id="inota" min="0" max="10" step="0.1" size="1" required placeholder="0 à 10"></p>
+
+        <p><label for="imes">Mês:</label> <input type="month" name="mes" id="imes" required value="2023-10"></p>
+
+        <p><label for="idate">Dia da prova:</label> <input type="date" name="date" id="idate" required value="2023-10-17"></p>
+
+
+        <p><input type="submit" value="Enviar"> <input type="reset" value="Enviar"></p>
+
+
+
+    </form>
+    
+</body>
+</html>
