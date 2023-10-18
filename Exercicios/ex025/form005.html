@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+
+        fieldset{
+            border-radius: 10px;
+            border-color: black;
+            background-color: yellowgreen;
+            
+        }
+        legend{
+            background-color: lightblue;
+        }
+
+        .enviar{
+            background-color: blue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+
+<body>
+    <h1> Radio e Checkbox</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        
+        <fieldset>
+            <legend>Sexo</legend>
+        
+            <input type="radio" name="sexo" id="isxm" value="M" checked> <label for="isxm">Masculino</label> <br>
+            <input type="radio" name="sexo" id="isxf" value="F"> <label for="isxf">Feminino</label> <br>
+            <input type="radio" name="sexo" id="isxo" value="O"> <label for="isxo"> Outros</label>
+        </fieldset> <br>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+
+            <input type="checkbox" name="fut" id="ifut"> <label for="ifut">Futebol</label> <br>
+            <input type="checkbox" name="tenis" id="itenis"> <label for="itenis">Tênis</label> <br>
+            <input type="checkbox" name="nat" id="inat"> <label for="inat">Natação</label> <br>
+            <input type="checkbox" name="vol" id="ivol"> <label for="ivol">Volei</label>
+
+        </fieldset><br>
+
+
+
+        <input class="enviar" type="submit" value="Enviar"> <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>

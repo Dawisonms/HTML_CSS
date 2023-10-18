@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+
+    <h1>Select, Datalist e Textarea</h1>
+    <form action="cadastro.php" method="post">
+        
+        <label for="iuf">Estado:</label> <select name="uf" id="iuf">
+            <OPtion selected>--</OPtion>
+            <optgroup label="Sudeste">
+                <option >MG</option>
+                <option >SP</option>
+                <option >RJ</option>
+                <option >ES</option>
+        
+            </optgroup>
+            <optgroup label="Sul">
+                <option >SC</option>
+                <option >RS</option>
+            </optgroup>
+            <optgroup label="Nordeste">
+                <option >BA</option>
+                <option >RN</option>
+            </optgroup>
+        </select><br>
+        <br>
+
+        <div>
+            Profissão: <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option>Administrador</option>
+                <option>Serralheiro</option>
+                <option>Mecânico</option>
+                <option>Engenheiro</option>
+                <option>Cozinheiro</option>
+            </datalist>
+        </div>
+        <br>
+
+        <label for="itxt">Mensagem <br></label><textarea name="txt" id="itxt" cols="30" rows="5"></textarea> <br>
+
+        <input type="submit" value="Enviar"> <input type="reset" value="Limpar">
+    </form>
+
+
+    
+</body>
+</html>

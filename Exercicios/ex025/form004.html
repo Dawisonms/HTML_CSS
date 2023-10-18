@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 4</title>
+</head>
+
+
+<body>
+
+    
+        <h1>Formulario 4</h1>
+        <form action="cadastro.php" autocomplete="on">
+            <fieldset> 
+                <legend>Dados Pessoais</legend>       
+            <p>
+                <label for="inome">Nome completo:</label> <input type="text" name="nome" id="inome" minlength="20" required autocomplete="additional-name">
+            </p>
+            <p>
+                <label for="iemail">Email:</label> <input type="email" name="email" id="iemail" required autocomplete="email">
+            </p>
+            <p>
+                <label for="itel">Telefone: <input type="tel" name="tel" id="itel" placeholder="(XXX) XXXXX-XXXX" required minlength="15" autocomplete="tel-area-code" value="(011)"></label>
+            </p>
+            
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+        </form>
+    
+    
+</body>
+</html>
