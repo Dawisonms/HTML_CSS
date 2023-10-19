@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/*Estilo Impressão*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    display: none;
+}
+
+h1, h2{
+    padding: 10px;
+
+}
+
+p{
+    line-height: 1.5em;
+}
+
+article::after{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: .8em;
+    content: "Noticia impressa pelo site dawisonms.github.io";
+}
