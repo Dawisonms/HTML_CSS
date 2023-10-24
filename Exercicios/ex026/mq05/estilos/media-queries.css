@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) {
+    span#burger{
+        display: none;
+    }
+    
+    menu > ul> li {
+        display: inline-block;
+        padding: 5px;
+    
+    }
+    menu{
+        text-align: left;
+    }
+}
